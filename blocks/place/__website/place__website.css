@@ -1,0 +1,13 @@
+.place__website {
+  grid-area: place-web;
+  max-width: 456px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .place__website{
+    margin-left: calc(16px + (0 - 16) * ((100vw - 320px) / ( 768 - 320)));
+  }
+}

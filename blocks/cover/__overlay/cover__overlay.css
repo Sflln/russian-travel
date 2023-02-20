@@ -1,0 +1,28 @@
+.cover__overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 740px;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover{
+  opacity: 0.7;
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .cover__overlay{
+    min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .cover__overlay{
+    min-height: calc(480px + (640 - 480) * ((100vw - 768px) / ( 1024 - 768)));
+  }
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .cover__overlay{
+    min-height: calc(200px + (480 - 200) * ((100vw - 320px) / ( 768 - 320)));
+  }
+}
