@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .intro{
     padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / ( 1024 - 768)));
-    margin-bottom: 88px;
+    margin-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / ( 1024 - 768)));
     max-width: calc(720px + (690 - 720) * ((100vw - 768px) / (1024 - 768)));
   }
 }

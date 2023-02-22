@@ -27,6 +27,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .place {
+    margin: 0 auto;
     margin-bottom: calc(50px + (73 - 50) * ((100vw - 320px) / ( 768 - 320)));
     grid-row-gap: calc(32px + (48 - 32) * ((100vw - 320px) / ( 768 - 320)));
      grid-template-areas:
@@ -39,11 +40,14 @@
 }
 @media screen and (min-width: 650px) and (max-width: 768px){
   .place{
+    margin: 0;
     grid-template-areas:
     "place-title place-web"
     "place-image place-paragraph";
     grid-column-gap: 28px;
     grid-row-gap: 48px;
+    margin-bottom: 73px;
+    margin-left: calc(20px + (0 - 20) * ((100vw - 650px) / ( 768 - 650)));
     max-width: calc(288px + (352 - 288) * ((100vw - 650px) / ( 768 - 650)));
   }
 }
