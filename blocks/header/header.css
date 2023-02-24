@@ -13,7 +13,7 @@
     padding-bottom: calc(48px + (56 - 48) * ((100vw - 1024px) / ( 1280 - 1024)));
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .header{
     padding-bottom: 48px;
     padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / ( 1024 - 768)));
@@ -22,7 +22,6 @@
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .header{
-    padding-bottom: 48px;
     padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / ( 768 - 320)));
     padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / ( 768 - 320)));
     padding-top: calc(16px + (28 - 16) * ((100vw - 320px) / ( 768 - 320)));
